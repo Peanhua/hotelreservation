@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="41cm" height="23cm" viewBox="170 256 817 455" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="211.85" y="525.5" width="210.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="211.85" y="525.5" width="210.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="317.25" y="539.5">Room</text>
+    <rect style="fill: #ffffff" x="211.85" y="543.5" width="210.8" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="211.85" y="543.5" width="210.8" height="68"/>
+    <polygon style="fill: #000000" points="214.85,553.5 216.85,556.5 218.85,553.5 216.85,550.5 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="220.85" y="559.5">(pk) room_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="361.75" y="559.5">INTEGER</text>
+    <ellipse style="fill: #000000" cx="216.85" cy="569.5" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="220.85" y="575.5">(fk) roomtype_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="361.75" y="575.5">INTEGER</text>
+    <ellipse style="fill: #000000" cx="216.85" cy="585.5" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="220.85" y="591.5">name:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="361.75" y="591.5">INTEGER</text>
+    <ellipse style="fill: #000000" cx="216.85" cy="601.5" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="220.85" y="607.5">price_per_day:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="361.75" y="607.5">INTEGER</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="484" y="256" width="233.9" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="484" y="256" width="233.9" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="600.95" y="270">Reservation</text>
+    <rect style="fill: #ffffff" x="484" y="274" width="233.9" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="484" y="274" width="233.9" height="84"/>
+    <polygon style="fill: #000000" points="487,284 489,287 491,284 489,281 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="493" y="290">(pk) reservation_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="657" y="290">INTEGER</text>
+    <ellipse style="fill: #000000" cx="489" cy="300" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="493" y="306">(fk) client_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="657" y="306">INTEGER</text>
+    <ellipse style="fill: #000000" cx="489" cy="316" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="493" y="322">start_date:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="657" y="322">DATE</text>
+    <ellipse style="fill: #000000" cx="489" cy="332" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="493" y="338">end_date:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="657" y="338">DATE</text>
+    <ellipse style="fill: #000000" cx="489" cy="348" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="493" y="354">total_price:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="657" y="354">LONG</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="486.85" y="532.5" width="226.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="486.85" y="532.5" width="226.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="599.95" y="546.5">Option</text>
+    <rect style="fill: #ffffff" x="486.85" y="550.5" width="226.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="486.85" y="550.5" width="226.2" height="36"/>
+    <polygon style="fill: #000000" points="489.85,560.5 491.85,563.5 493.85,560.5 491.85,557.5 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="495.85" y="566.5">(pk) option_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="621.35" y="566.5">INTEGER</text>
+    <ellipse style="fill: #000000" cx="491.85" cy="576.5" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="495.85" y="582.5">name:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="621.35" y="582.5">VARCHAR(80)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="759.85" y="409.5" width="226.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="759.85" y="409.5" width="226.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="872.95" y="423.5">Client</text>
+    <rect style="fill: #ffffff" x="759.85" y="427.5" width="226.2" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="759.85" y="427.5" width="226.2" height="68"/>
+    <polygon style="fill: #000000" points="762.85,437.5 764.85,440.5 766.85,437.5 764.85,434.5 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="768.85" y="443.5">(pk) client_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="894.35" y="443.5">INTEGER</text>
+    <ellipse style="fill: #000000" cx="764.85" cy="453.5" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="768.85" y="459.5">name:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="894.35" y="459.5">VARCHAR(80)</text>
+    <ellipse style="fill: #000000" cx="764.85" cy="469.5" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="768.85" y="475.5">phone:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="894.35" y="475.5">VARCHAR(40)</text>
+    <ellipse style="fill: #000000" cx="764.85" cy="485.5" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="768.85" y="491.5">email:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="894.35" y="491.5">VARCHAR(80)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="201" y="415" width="233.9" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="201" y="415" width="233.9" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="317.95" y="429">ReservationRoom</text>
+    <rect style="fill: #ffffff" x="201" y="433" width="233.9" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="201" y="433" width="233.9" height="36"/>
+    <ellipse style="fill: #000000" cx="206" cy="443" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="210" y="449">(fk) reservation_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="374" y="449">INTEGER</text>
+    <ellipse style="fill: #000000" cx="206" cy="459" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="210" y="465">(fk) room_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="374" y="465">INTEGER</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="484" y="416" width="233.9" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="484" y="416" width="233.9" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="600.95" y="430">ReservationOption</text>
+    <rect style="fill: #ffffff" x="484" y="434" width="233.9" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="484" y="434" width="233.9" height="36"/>
+    <ellipse style="fill: #000000" cx="489" cy="444" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="493" y="450">(fk) reservation_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="657" y="450">INTEGER</text>
+    <ellipse style="fill: #000000" cx="489" cy="460" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="493" y="466">(fk) option_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="657" y="466">INTEGER</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="542.475,358 542.475,386.5 317.95,386.5 317.95,415 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="546.475" y="370">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.95" y="411">*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="317.25,525.5 317.25,497.25 317.95,497.25 317.95,469 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.25" y="521.5">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.95" y="481">*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="600.95,358 600.95,358 600.95,416 600.95,416 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="604.95" y="370">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="604.95" y="412">*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="599.95,532.5 599.95,501.25 600.95,501.25 600.95,470 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="603.95" y="528.5">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="604.95" y="482">*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="872.95,409.5 872.95,383.75 659.425,383.75 659.425,358 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="876.95" y="405.5">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="663.425" y="370">*</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="170" y="266" width="280.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="170" y="266" width="280.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="310.05" y="280">ReservationSystem</text>
+    <rect style="fill: #ffffff" x="170" y="284" width="280.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="170" y="284" width="280.1" height="36"/>
+    <polygon style="fill: #000000" points="173,294 175,297 177,294 175,291 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="179" y="300">(pk) system_name:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="319.9" y="300">VARCHAR(8)</text>
+    <ellipse style="fill: #000000" cx="175" cy="310" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="179" y="316">version:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="319.9" y="316">INTEGER NOT NULL</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="198" y="656" width="241.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="198" y="656" width="241.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="318.8" y="670">Roomtype</text>
+    <rect style="fill: #ffffff" x="198" y="674" width="241.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="198" y="674" width="241.6" height="36"/>
+    <ellipse style="fill: #000000" cx="203" cy="684" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="207" y="690">(pk) roomtype_id:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="347.9" y="690">INTEGER</text>
+    <ellipse style="fill: #000000" cx="203" cy="700" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="207" y="706">name:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="347.9" y="706">VARCHAR(80)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="317.25,611.5 317.25,633.75 318.8,633.75 318.8,656 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.25" y="623.5">*</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322.8" y="652">1</text>
+  </g>
+</svg>
